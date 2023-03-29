@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let precoUnitario = Number(prompt('Digite o preço unitário do produto'))
+        let quantidadeProduto = Number(prompt('Digite a quantidade de unidades compradas'))
+        let valorRecebido = Number(prompt('Digite o valor dado em dinheiro'))
+
+        let valorTotal = precoUnitario * quantidadeProduto
+
+        if(valorRecebido > valorTotal){
+        let sobra = valorRecebido - valorTotal
+        document.write(`Precisa de troco para R$ ${sobra.toFixed(2)}`)
+        }else if(valorRecebido < valorTotal){
+        let diferenca = valorTotal - valorRecebido
+        document.write(`Dinheiro insuficiente, faltam R$ ${diferenca.toFixed(2)}`)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let codigo = Number(prompt('Digite o código do produto comprado:'))
+        let quantidade = Number(prompt('Digite a quantidade comprada:'))
+        let preco
+        
+        if(codigo == 1){
+            preco = 5
+           
+        }else if(codigo == 2){
+            preco = 3.50
+            
+        }else if(codigo == 3){
+            preco = 4.80
+            
+        }else if(codigo == 4){
+            preco = 8.90
+            
+        }else{
+            preco = 7.30
+        }
+
+        preco = quantidade * preco
+        document.write(`Valor a pagar R$ ${preco.toFixed(2)}`)
+    </script>
+</body>
+</html>

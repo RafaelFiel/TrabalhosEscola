@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function triangulo(n1, n3){
+            area = n1 * n3 / 2
+            return area
+        }
+
+        function circulo(n3){
+            area = (n3 * n3) * 3.14159 
+            return area
+        }
+
+        function trapezio(n1, n2, n3){
+            area = (n1 + n2) * n3 / 2
+            return area
+        }
+
+        function quadrado(n2){
+            area = n2 * n2
+            return area
+        }
+
+        function retangulo(n1, n2){
+            area = n1 * n2
+            return area
+        }
+
+        const numero1 = Number(prompt("Digite o primeiro número:"))
+        const numero2 = Number(prompt("Digite o segundo número:"))
+        const numero3 = Number(prompt("Digite o terceiro número:"))
+
+        document.write(`TRIANGULO: ${triangulo(numero1, numero3).toFixed(3)}`)
+        document.write(`CIRCULO: ${circulo(numero3).toFixed(3)}`)
+        document.write(`TRAPEZIO: ${trapezio(numero1, numero2, numero3).toFixed(3)}`)
+        document.write(`QUADRADO: ${quadrado(numero2).toFixed(3)}`)
+        document.write(`RETANGULO: ${retangulo(numero1, numero2).toFixed(3)}`)
+    </script>
+</body>
+</html>

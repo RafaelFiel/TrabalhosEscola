@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calcularMedia(n1, n2, n3, n4){
+            media = (n1 + n2 + n3 + n4) / 4
+
+            return media
+        }
+
+        const numero1 = Number(prompt("Digite o primeiro número:"))
+        const numero2 = Number(prompt("Digite o segundo número:"))
+        const numero3 = Number(prompt("Digite o terceiro número:"))
+        const numero4 = Number(prompt("Digite o quarto número:"))
+
+        document.write(`NOTA FINAL = ${calcularMedia(numero1, numero2, numero3, numero4).toFixed(1)}`)
+    </script>
+</body>
+</html>

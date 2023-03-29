@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function adicao(n1,n2){
+            soma = n1 + n2
+            return soma
+        }
+
+        function subtracao(n1,n2){
+            sub = n1 - n2
+            return sub
+        }
+
+        function multiplicacao(n1,n2){
+            mult = n1 * n2
+            return mult
+        }
+
+        function divisao(n1,n2){
+            div = n1 / n2
+            return div
+        }
+
+        const numero1 = Number(prompt("Digite o primeiro número:"))
+        const numero2 = Number(prompt("Digite o segundo número:"))
+
+        document.write(`SOMA: ${adicao(numero1, numero2)}`)
+        document.write(`SUBTRAÇÃO: ${subtracao(numero1, numero2)}`)
+        document.write(`MULTIPLICAÇÃO: ${multiplicacao(numero1, numero2)}`)
+        document.write(`DIVISÃO: ${divisao(numero1, numero2)}`)
+    </script>
+</body>
+</html>
