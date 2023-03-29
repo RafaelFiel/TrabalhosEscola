@@ -1,0 +1,472 @@
+/* 1 SESSÃO */
+
+.main_ads{
+    padding: 20px;
+    width: 100%;
+    background-image: url('../img/banner_coca.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main_ads .main_ads_cont{
+    max-width: 81.25rem;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+
+.main_ads .main_ads_cont h1{
+    font-size: 2.5em;
+    color: white;
+    margin: 0.625rem 0;
+}
+
+.main_ads .main_ads_cont header p{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1.875rem;
+}
+
+.main_ads .main_ads_cont p a{
+    font-size: 1.2em;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_ads .main_ads_cont p a:hover{
+    font-size: 1.2em;
+    color: black;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 0.875rem;
+    border-radius: 1.563rem;
+    cursor: pointer;
+}
+
+.main_ads .main_ads_cont .main_ads_cont_space{
+    max-width: 81.25rem;
+    margin: 8.75rem 0;
+}
+
+/* 2 SESSÃO */
+
+.main_purchase{
+    width: 100%;
+}
+
+.main_purchase .main_purchase_section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 81.25rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main_purchase .main_purchase_section .main_purchase_section_cont img{
+    width: 28.438rem;
+    margin-bottom: 2.5rem;
+}
+
+.main_purchase .main_purchase_section .main_purchase_section_cont p{
+    font-size: 1.25rem;
+    width: 27.5rem;
+    margin-bottom: 3.75rem;
+}
+
+.main_purchase .main_purchase_section .main_purchase_section_cont p a{
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: black;
+    border: 0.063rem solid rgba(255, 255, 255, 0.233);
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_purchase .main_purchase_section .main_purchase_section_cont p a:hover{
+    color: #000;
+    background-color: #fff;
+    border: 0.063rem solid #000;
+}
+
+.main_purchase .main_purchase_section .main_purchase_section_cont small{
+    font-size: 1rem;
+    margin-top: 1.875rem;
+}
+
+.main_purchase .main_purchase_section .main_purchase_section_cont_right{
+    background-color: #e24126;
+}
+
+.main_purchase .main_purchase_section .main_purchase_section_cont_right img{
+    width: 42.125rem;
+    
+}
+/* 3 SESSÃO */
+
+.main_offers{
+    width: 100%;
+}
+
+.main_offers .main_offers-cont{
+    max-width: 81.25rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4.375rem;
+    margin-bottom: 4.375rem;
+}
+
+.main_offers .main_offers-cont h1{
+    font-size: 3.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.main_offers .main_offers-cont p{
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.main_offers .main_offers-cont p a{
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: black;
+    border: 0.063rem solid rgba(255, 255, 255, 0.233);
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_offers .main_offers-cont p a:hover{
+    color: #000;
+    background-color: #fff;
+    border: 0.063rem solid #000;
+}
+
+/* 4 SESSÃO */
+
+.main_buy{
+    width: 100%;
+    padding: 1.25rem 1.25rem 0px 1.25rem;
+    background: black;
+}
+
+.main_buy .main_buy_cont{
+    max-width: 81.25rem;
+    margin: 0 auto;
+}
+
+.main_buy .main_buy_cont header p{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    margin-top: 0.938rem;
+}
+
+.main_buy .main_buy_cont header h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0.938rem 0;
+}
+
+.main_buy .main_buy_cont p{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-bottom: 2.188rem;
+}
+
+.main_buy .main_buy_cont .btn a{
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border: 0.063rem solid rgba(255, 255, 255, 0.233);
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_buy .main_buy_cont .btn a:hover{
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border: 0.063rem solid rgba(255, 255, 255, 0.89);
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_buy .main_buy_cont p img{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+/* 4 SESSÃO */  
+
+.main_promotion{
+    width: 100%;
+}
+
+.main_promotion .main_promotion_section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 81.25rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main_promotion .main_promotion_section .main_promotion_section_cont p{
+    font-size: 1rem;
+    color: #DB3534;
+    font-weight: 700;
+    margin-bottom: 2.188rem;
+}
+
+.main_promotion .main_promotion_section .main_promotion_section_cont h1{
+    font-size: 2.5rem;
+    width: 31.25rem;
+    margin-bottom: 3.75rem;
+}
+
+.main_promotion .main_promotion_section .main_promotion_section_cont p a{
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: black;
+    border: 0.063rem solid rgba(255, 255, 255, 0.89);
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_promotion .main_promotion_section .main_promotion_section_cont p a:hover{
+    color: #000;
+    background-color: #fff;
+    border: 0.063rem solid #000;
+}
+
+/* 5 SESSÃO */  
+
+.main_virtual{
+    width: 100%;
+    background-color: #8cd5ae;
+}
+
+.main_virtual .main_virtual_section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 81.25rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main_virtual .main_virtual_section .main_virtual_section_cont h1{
+    font-size: 3.063rem;
+    color: #DB3534;
+    font-weight: 700;
+    margin-bottom: 2.188rem;
+    margin-top: 5rem;
+    margin-bottom: 3.75rem;
+}
+
+.main_virtual .main_virtual_section .main_virtual_section_cont p{
+    font-size: 1.25rem;
+    margin-bottom: 2.188rem;
+    width: 25.625rem;
+}
+
+.main_virtual .main_virtual_section .main_virtual_section_cont p a{
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: black;
+    border: 0.063rem solid rgba(255, 255, 255, 0.89);
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_virtual .main_virtual_section .main_virtual_section_cont p a:hover{
+    color: #000;
+    background-color: #fff;
+    border: 0.063rem solid #000;
+}
+
+.main_virtual .main_virtual_section .main_virtual_section_cont_right img{
+    margin-top: 5rem;
+    margin-bottom: 3.75rem;
+}
+
+
+/* 6 SESSÃO */
+
+.main_registration{
+    width: 100%;
+    background-color: #DB3534;
+}
+
+.main_registration .main_registration_section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 81.25rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main_registration .main_registration_section .main_registration_section_cont h1{
+    font-size: 2.5rem;
+    width: 25rem;
+    color: #fff;
+    margin-bottom: 3.75rem;
+}
+
+.main_registration .main_registration_section .main_registration_section_cont p a{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_registration .main_registration_section .main_registration_section_cont p a:hover{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: black;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 0.875rem;
+    border-radius: 1.563rem;
+    cursor: pointer;
+}
+
+/* 7 SESSÃO */
+
+.main_inf{
+    width: 100%;
+    background-color: #201e1e;
+}
+
+.main_inf .main_inf_section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 81.25rem;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont1 img{
+    width: 10rem;
+    margin-top: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont1 p a{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: white;
+    font-weight: 700;
+    background-color: #201e1e;
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+    border: 0.063rem solid white;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont1 p a:hover{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: black;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 0.875rem;
+    border-radius: 1.563rem;
+    cursor: pointer;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont1 hr{
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont1 p{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont2 h1{
+    font-size: 1.125rem;
+    color: #fff;
+    margin-bottom: 0.938rem;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont2 p{
+    font-size: 0.875rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont3 .regulamento{
+   margin-top: 3.125rem;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont3 .cadastro a{
+    color: #201e1e;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: white;
+    border: 0.063rem solid rgba(255, 255, 255, 0.233);
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont3 .cadastro a:hover{
+    color: #fff;
+    background-color: #201e1e;
+    border: 0.063rem solid #fff;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont3 .regulamento a{
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: #201e1e;
+    border: 0.063rem solid rgba(255, 255, 255, 0.233);
+    padding: 0.938rem;
+    border-radius: 1.563rem;
+}
+
+.main_inf .main_inf_section .main_inf_section_cont3 .regulamento a:hover{
+    border: 0.063rem solid #fff;
+}
+
+
+/* 8 SESSÃO */
+
+.foot_des{
+    width: 100%;
+    background-color: #000;
+}
+
+.foot_des .foot_des_cont{
+    max-width: 81.25rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0.625rem;
+}
+
+.foot_des .foot_des_cont p{
+    font-size: 0.563rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.foot_des .foot_des_cont h1{
+    font-size: 0.75rem;
+    color: #fff;
+}
