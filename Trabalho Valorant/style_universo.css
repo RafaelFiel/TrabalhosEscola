@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main_header{
+    width: 100%;
+    background-color: #000;
+}
+
+.main_header .main_header_content{
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main_header .main_header_content .logo img{
+    flex-basis: 130px;
+    padding: 20px;
+    width: 130px;
+}
+
+.main_header .main_header_content .main_header_content_menu{
+    flex-basis: calc(100% - 130px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_header_content_menu ul{
+    align-items: stretch;
+    display: flex;
+}
+
+.main_header_content_menu ul li{
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.main_header_content_menu ul li a{
+    text-decoration: none;
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.main_header_content_menu ul li a:hover{
+    color: #ff4665;
+}
+
+/* 2 SESSÃO */
+
+.main_history{
+    width: 100%;
+    background-color: #ece8e1;
+}
+
+.main_history .main_des{
+    width: 100%;
+}
+
+.main_history .main_des .main_des_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.main_history .main_des .main_des_content .main_des_content_txt{
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.main_history .main_des .main_des_content .main_des_content_txt h1{
+    color: #0f1923;
+    font-size: 1.7em;
+    margin-bottom: 28px;
+}
+
+.main_history .main_des .main_des_content .main_des_content_txt p{
+    color: #0f1923;
+    font-size: 1.35em;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.main_history .main_des .main_des_content .video_1{
+    display: flex;
+    margin-left: 330px;
+}
+
+
+.main_history .main_des_2{
+    width: 100%;
+    background-color: #ff4665;
+}
+
+.main_history .main_des_2 .main_des_content_2{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.main_history .main_des_2 .main_des_content_2 .video_2{
+    display: flex;
+    margin-right: 330px;
+}
+
+.main_history .main_des_2 .main_des_content_2 .main_des_content_txt_2{
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.main_history .main_des_2 .main_des_content_2 .main_des_content_txt_2 h1{
+    color: #ece8e1;
+    font-size: 1.7em;
+    margin-bottom: 28px;
+}
+
+.main_history .main_des_2 .main_des_content_2 .main_des_content_txt_2 p{
+    color: #ece8e1;
+    font-size: 1.35em;
+    width: 400px;
+    margin-bottom: 50px;
+}

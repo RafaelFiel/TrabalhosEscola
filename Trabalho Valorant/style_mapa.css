@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*
+html{
+    font-size: 62.5%;
+}
+*/
+
+.main_header {
+    width: 100%;
+    background-color: #000;
+}
+
+.main_header .main_header_content {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main_header .main_header_content .logo img {
+    flex-basis: 130px;
+    padding: 20px;
+    width: 130px;
+}
+
+.main_header .main_header_content .main_header_content_menu {
+    flex-basis: calc(100% - 130px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_header_content_menu ul {
+    align-items: stretch;
+    display: flex;
+}
+
+.main_header_content_menu ul li {
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.main_header_content_menu ul li a {
+    text-decoration: none;
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.main_header_content_menu ul li a:hover {
+    color: #ff4665;
+}
+
+
+/*Titulo Mapa*/
+
+.main_titulo_map .main_titulo .main_content_titulo .main_content_text_titulo {
+    position: absolute;
+    top: 25rem;
+    left: 7rem;
+    color: #fff;
+    font-size: 7.5rem;
+}
+
+.main_titulo_map {
+    background-image: url(imagens/valorant_ascent.jpg);
+    height: 55rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+
+
+/*Estilo 1*/
+
+main {
+    background-color: #ece8e1;
+}
+
+.estilo1 {
+    background-color: #ece8e1;
+}
+
+.estilo1 .main_mapa1 .main_mapa_content1 {
+    display: flex;
+    align-items: center;
+}
+
+.estilo1 .main_mapa1 .main_mapa_content1 .main_content_text1 {
+    flex-direction: column;
+}
+
+.estilo1 .main_mapa1 .main_mapa_content1 .main_content_text1 h2 {
+    font-size: 7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 3rem;
+}
+
+.estilo1 .main_mapa1 .main_mapa_content1 .main_content_text1 p {
+    text-align: justify;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.estilo1 .main_mapa1 .main_mapa_content1 .mapa1 img {
+    width: 35rem;
+    height: auto;
+}
+
+
+/*Estilo 2*/
+
+.estilo2 {
+    background-color: #ece8e1;
+}
+
+.estilo2 .main_mapa2 .main_mapa_content2 {
+    display: flex;
+    align-items: center;
+}
+
+.estilo2 .main_mapa2 .main_mapa_content2 .main_mapa_text2 {
+    flex-direction: column;
+}
+
+.estilo2 .main_mapa2 .main_mapa_content2 .main_content_text2 h2 {
+    font-size: 7rem;
+    margin: 0 4rem 3rem 4rem;
+}
+
+.estilo2 .main_mapa2 .main_mapa_content2 .main_content_text2 p {
+    text-align: justify;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.estilo2 .main_mapa2 .main_mapa_content2 .mapa2 img {
+    width: 35rem;
+    height: auto;
+}

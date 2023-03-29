@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main_header {
+    width: 100%;
+    background-color: #000;
+}
+
+.main_header .main_header_content {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main_header .main_header_content .logo img {
+    flex-basis: 130px;
+    padding: 20px;
+    width: 130px;
+}
+
+.main_header .main_header_content .main_header_content_menu {
+    flex-basis: calc(100% - 130px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_header_content_menu ul {
+    align-items: stretch;
+    display: flex;
+}
+
+.main_header_content_menu ul li {
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.main_header_content_menu ul li a {
+    text-decoration: none;
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.main_header_content_menu ul li a:hover {
+    color: #ff4665;
+}
+
+
+/* 2 SESSÃO */
+
+body {
+    background-image: url(imagens/L10_Sillos_Final.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.8rem;
+}
+
+.main_cta {
+    width: 100%;
+}
+
+.main_cta .main_cta_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 200px;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer {
+    display: flex;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer p {
+    font-size: 1.35em;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 400px;
+}
+
+.main_perso {
+    width: 100%;
+    background-color: #0f1823;
+}
+
+.main_perso .main_des {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 250px;
+}
+
+.main_perso .main_des .main_des_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_perso .main_des .main_des_content img {
+    margin-top: 20px;
+}
+
+.main_perso .main_des .main_des_content h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.main_perso .main_des .main_des_content .main_des_content_txt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.main_perso .main_des .main_des_content .main_des_content_txt h2 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.main_perso .main_des .main_des_content .main_des_content_txt h3 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.main_perso .main_des .main_des_content .main_des_content_txt p {
+    font-size: 1.35rem;
+    color: #fff;
+    width: 360px;
+}
