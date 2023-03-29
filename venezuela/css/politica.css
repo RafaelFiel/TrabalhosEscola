@@ -1,0 +1,87 @@
+
+.main_historia{
+    width: 100%;
+    background-color: #fff;
+}
+
+.main_historia .main_historia_des{
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main_historia .main_historia_des .main_historia_des_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}   
+
+.main_historia .main_historia_des .main_historia_des_content .logo img{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.main_historia .main_historia_des .main_historia_des_content .main_historia_des_content_txt{
+    flex-direction: column;
+}
+
+.main_historia .main_historia_des .main_historia_des_content .main_historia_des_content_txt h1{
+    color: #0f1923;
+    font-size: 1.7em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.main_historia .main_historia_des .main_historia_des_content .main_historia_des_content_txt p{
+    color: #0f1923;
+    text-align: justify;
+    font-size: 18px;
+    width: 700px;
+}
+
+/* 2 parte */
+
+.main_historia_2{
+    width: 100%;
+    background-color: #ff4665;
+}
+
+.main_historia_2 .main_historia_des_2{
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main_historia_2 .main_historia_des_2 .main_historia_des_content_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}   
+
+.main_historia_2 .main_historia_des_2 .main_historia_des_content_2 .logo_2 img{
+    width: 450px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.main_historia_2 .main_historia_des_2 .main_historia_des_content_2 .main_historia_des_content_txt_2{
+    flex-direction: column;
+}
+
+.main_historia_2 .main_historia_des_2 .main_historia_des_content_2 .main_historia_des_content_txt_2 h1{
+    color: #ece8e1;
+    font-size: 1.7em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.main_historia_2 .main_historia_des_2 .main_historia_des_content_2 .main_historia_des_content_txt_2 p{
+    color: #ece8e1;
+    text-align: justify;
+    font-size: 18px;
+    width: 700px;
+}

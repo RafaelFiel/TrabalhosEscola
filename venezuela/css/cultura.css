@@ -1,0 +1,46 @@
+
+.main_tu{
+    width: 100%;
+    background-color: #fff;
+}
+
+.main_tu .main_tu_cont{
+    width: 100%;
+}
+
+.main_tu .main_tu_cont .main_tu_cont_des{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.main_tu .main_tu_cont .main_tu_cont_des .main_tu_cont_txt{
+    flex-direction: column;
+    margin-top: 145px;
+    margin-right: 140px;
+    margin-bottom: 145px;
+}
+
+.main_tu .main_tu_cont .main_tu_cont_des .main_tu_cont_txt h1{
+    font-size: 2.4rem;
+    color: #d32139;
+    margin-bottom: 20px;
+}
+
+.main_tu .main_tu_cont .main_tu_cont_des .main_tu_cont_txt p{
+    color: #000;
+    width: 430px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.main_tu .main_tu_cont .main_tu_cont_des .main_tu_cont_txt a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main_tu .main_tu_cont .main_tu_cont_des .pontos_tu img{
+    width: 700px;
+    height: 400px;
+    display: flex;
+}

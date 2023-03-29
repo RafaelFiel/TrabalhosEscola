@@ -1,0 +1,38 @@
+.titulo_cultura{
+    max-width: 1300px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    background-color: #e6c458;
+}
+
+.titulo_cultura H1{
+    color: #d32139;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.img{
+    width: 100%;
+}
+
+.main_crono{
+    max-width: 1300px;
+    align-items: center;
+    margin: 0 auto;
+    border-left: 3px solid  #e6c458;
+    padding-left: 1rem;
+    ;
+}
+
+.modelo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3rem;
+    margin-top: 3rem;
+}
+
+.modelo1 p{
+    margin-left: 2.5rem;
+}
